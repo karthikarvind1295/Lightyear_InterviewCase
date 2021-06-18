@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="object",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Interviw_case_python.Modules.adc\l_driver.adc_drivers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInterviw__case__python_1_1Modules_1_1adc__driver_1_1adc__drivers.html",tooltip="This class defines the adc_driver class This class replicates the function of a ADC Driver."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Interviw_case_python.Modules.error\l_led.error_led",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInterviw__case__python_1_1Modules_1_1error__led_1_1error__led.html",tooltip="The Error class The error class is used to get the residual error/detect the noisy sensor and take th..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Interviw_case_python.Modules.torque\l_converter.torque_pedalangleper_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInterviw__case__python_1_1Modules_1_1torque__converter_1_1torque__pedalangleper__speed.html",tooltip="The torque interpolation function The class functions as the torque converter."];
+}
